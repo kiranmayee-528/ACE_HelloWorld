@@ -2,7 +2,7 @@ FROM ibmcom/ace-server:latest
  
 USER root
  
-COPY BAR /home/aceuser/bars
+COPY Bar /home/aceuser/bars
 RUN  chmod -R ugo+rwx /home/aceuser
  
 USER 1000
