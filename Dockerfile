@@ -1,4 +1,4 @@
-FROM ibmcom/ace-server:11.0.0.11-r2-20210303-133203-amd64
+FROM 11.0.0.10-r1-20200911-030305-amd64@sha256:e864daabcc13d6ea9fd8c5ed12751e400f7c5f5e6cfdc1aecb1374a0d69a2585
  
 USER root
  
