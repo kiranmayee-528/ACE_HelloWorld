@@ -1,4 +1,4 @@
-FROM 11.0.0.10-r3-eus-20201113-040256
+FROM ibmcom/ace-server:11.0.0.11-r2-20210303-133203-amd64
  
 USER root
  
