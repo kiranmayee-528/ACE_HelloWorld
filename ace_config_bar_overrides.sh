@@ -16,7 +16,7 @@ if ls /home/aceuser/initial-config/bar_overrides/*.properties >/dev/null 2>&1; t
   do
     for bar in /home/aceuser/initial-config/bars/*.bar
     do
-      mqsiapplybaroverride -b $bar -p $propertyFile -r 
+      mqsiapplybaroverride -b $bar -p $propertyFile -o /home/aceuser/bars/ACEHelloWorldproject.bar -r 
       echo $propertyFile >> /home/aceuser/initial-config/bar_overrides/logs.txt
     done
   done
