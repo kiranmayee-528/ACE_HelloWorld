@@ -8,7 +8,7 @@ RUN  chmod -R ugo+rwx /home/aceuser
  
 USER 1000
  
-ENTRYPOINT ["/ace_bar_overrides.sh"]
+RUN ["/ace_bar_overrides.sh"]
 RUN ace_compile_bars.sh 
 
 USER root
