@@ -1,4 +1,4 @@
-FROM ibmcom/ace-server:11.0.0.11-r2-20210303-133203-amd64
+FROM ace-only:latest
  
 USER root
  
