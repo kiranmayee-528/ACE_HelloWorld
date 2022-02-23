@@ -1,4 +1,4 @@
-FROM ace-only:latest
+FROM icr.io/appc-dev/ace-server@sha256:980a561ba72fcc53f46e909f9f94c521aa66bf11a3e286480c8074d4e8bb40fe
  
 USER root
  
