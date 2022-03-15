@@ -1,7 +1,7 @@
 FROM ibmcom/ace-server:11.0.0.11-r2-20210303-133203-amd64
  
 USER root
- 
+ENV LICENSE = accept
 COPY Bar /home/aceuser/initial-config/bars
 RUN  chmod -R ugo+rwx /home/aceuser
  
